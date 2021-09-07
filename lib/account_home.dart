@@ -9,7 +9,7 @@ class AccountPage extends StatelessWidget {
       appBar: AppBar(
         title: Text('Account Validation'),
         centerTitle: true,
-
+        automaticallyImplyLeading: false,
       ),
       body: Padding(
         padding: EdgeInsets.all(20.0),
