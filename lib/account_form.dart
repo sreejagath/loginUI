@@ -94,9 +94,9 @@ class _AccountFormState extends State<AccountForm> {
             String emailad = email.text;
             String pass = password.text;
             //routing to account home page
-            if(emailad =='jagalsree@gmail.com'&&pass =='sree007'){
+            if(emailad =='saymyname@gmail.com'&&pass =='heisenberg'){
               print('Login success Navigating to homepage');
-            Navigator.push(context, MaterialPageRoute(builder: (context) => Home()));
+            Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => Home()));
     
           }
             // ?Scaffold.of(context).showSnackBar(SnackBar(content: Text('Valid emai'))):Scaffold.of(context).showSnackBar(SnackBar(content: Text('Invalid email')));
