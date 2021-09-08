@@ -29,20 +29,13 @@ class _AccountFormState extends State<AccountForm> {
             controller: email,
             validator: (String? value) {
               if (value?.isEmpty??true) {
-
-                return 'Please enter a valid email';
+                return 'Please enter a valid usernam';
               }
-              if(value!.length < 6) {
-                return 'Atleast 6 characters required';
+              if(value!.length < 4) {
+                return 'Atleast 4 characters required';
               }
               if(value.length > 30){
                 return 'Maximum 30 characters allowed';
-              }
-              if(!value.contains('@')){
-                return 'Please enter a valid email';
-              }
-              if(!value.contains('.')){
-                return 'Please enter a valid email';
               }
               if(!value.contains('jagalsree@gmail.com')){
                 return 'Incorrect Mail Id';
@@ -50,9 +43,9 @@ class _AccountFormState extends State<AccountForm> {
               return null;
             },
             decoration: InputDecoration(
-              labelText: 'Email',
-              icon: Icon(Icons.email),
-              helperText: 'Please enter your email',
+              labelText: 'Username',
+              icon: Icon(Icons.person),
+              helperText: 'Please enter your username',
             ),
           ),
           SizedBox(height: 20.0),
@@ -94,7 +87,7 @@ class _AccountFormState extends State<AccountForm> {
             String emailad = email.text;
             String pass = password.text;
             //routing to account home page
-            if(emailad =='saymyname@gmail.com'&&pass =='heisenberg'){
+            if(emailad =='saymyname'&&pass =='heisenberg'){
               print('Login success Navigating to homepage');
             Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => Home()));
     
