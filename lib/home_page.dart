@@ -117,11 +117,11 @@ class MainHome extends StatelessWidget {
                       child: ListTile(
                         
                         leading: Icon(Icons.post_add),
-                        title: Text('Note 1'),
+                        title: Text('What is flutter?'),
                         trailing: Icon(Icons.more_vert),
                         subtitle: Padding(
                           padding: EdgeInsets.only(top: 10),
-                          child: Text('Lorem Ipsum is simply dummy text. Lorem Ipsum is simply a dummy text. Lorem Ipsum is simply a dummy text.',
+                          child: Text('Flutter is a free and open-source mobile UI framework created by Google and released in May 2017. In a few words, it allows you to create a native mobile application with only one codebase. This means that you can use one programming language and one codebase to create two different apps (for iOS and Android).',
                             style: TextStyle(),
                           ),
                         ),
@@ -134,11 +134,12 @@ class MainHome extends StatelessWidget {
                     child: Card(
                       child: ListTile(
                         leading: Icon(Icons.post_add_rounded),
-                        title: Text('Album'),
+                        title: Text('What is dart?'),
                         trailing: Icon(Icons.more_vert),
                         subtitle: Padding(
                             padding: EdgeInsets.only(top: 10),
-                            child: Text('Lorem Ipsum is simply dummy text. Lorem Ipsum is simply a dummy text. Lorem Ipsum is simply a dummy text.',
+                            child: Text('Dart is a client-optimized language for developing fast apps on any platform. Its goal is to offer the most productive programming language for multi-platform development, paired with a flexible execution runtime platform for app frameworks. Languages are defined by their technical envelope — the choices made during development that shape the capabilities and strengths of a language. Dart is designed for a technical envelope that is particularly suited to client development, prioritizing both development (sub-second stateful hot reload) and high-quality production experiences across a wide variety of compilation targets (web, mobile, and desktop). Dart also forms the foundation of Flutter. Dart provides the language and runtimes that power Flutter apps, but Dart also supports many core developer tasks like formatting, analyzing, and testing code.',
+
                               style: TextStyle(),
                             ),
                           ),
@@ -151,11 +152,11 @@ class MainHome extends StatelessWidget {
                     child: Card(
                       child: ListTile(
                         leading: Icon(Icons.post_add_rounded),
-                        title: Text('Album'),
+                        title: Text('Google'),
                         trailing: Icon(Icons.more_vert),
                         subtitle: Padding(
                             padding: EdgeInsets.only(top: 10),
-                            child: Text('Lorem Ipsum is simply dummy text. Lorem Ipsum is simply a dummy text. Lorem Ipsum is simply a dummy text.',
+                            child: Text('Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, a search engine, cloud computing, software, and hardware. It is considered one of the Big Five companies in the American information technology industry, along with Amazon, Facebook, Apple, and Microsoft.',
                               style: TextStyle(),
                             ),
                           ),
@@ -168,11 +169,11 @@ class MainHome extends StatelessWidget {
                     child: Card(
                       child: ListTile(
                         leading: Icon(Icons.post_add_rounded),
-                        title: Text('Album'),
+                        title: Text('Elon Musk'),
                         trailing: Icon(Icons.more_vert),
                         subtitle: Padding(
                             padding: EdgeInsets.only(top: 10),
-                            child: Text('Lorem Ipsum is simply dummy text. Lorem Ipsum is simply a dummy text. Lorem Ipsum is simply a dummy text.',
+                            child: Text('Elon Reeve Musk FRS (born June 28, 1971) is an entrepreneur and business magnate. He is the founder, CEO, and Chief Engineer at SpaceX; early stage investor,[note 2] CEO, and Product Architect of Tesla, Inc.; founder of The Boring Company; and co-founder of Neuralink and OpenAI. A centibillionaire, Musk is one of the richest people in the world.',
                               style: TextStyle(),
                             ),
                           ),
@@ -185,11 +186,11 @@ class MainHome extends StatelessWidget {
                     child: Card(
                       child: ListTile(
                         leading: Icon(Icons.post_add_rounded),
-                        title: Text('Album'),
+                        title: Text('Jeff Bezos'),
                         trailing: Icon(Icons.more_vert),
                         subtitle: Padding(
                             padding: EdgeInsets.only(top: 10),
-                            child: Text('Lorem Ipsum is simply dummy text. Lorem Ipsum is simply a dummy text. Lorem Ipsum is simply a dummy text.Lorem Ipsum is simply dummy text. Lorem Ipsum is simply a dummy text. Lorem Ipsum is simply a dummy text.Lorem Ipsum is simply dummy text. Lorem Ipsum is simply a dummy text. Lorem Ipsum is simply a dummy text.Lorem Ipsum is simply dummy text. Lorem Ipsum is simply a dummy text. Lorem Ipsum is simply a dummy text.',
+                            child: Text('Jeffrey Preston Bezos (born January 12, 1964) is an American entrepreneur, media proprietor, investor, and computer engineer. He is the founder and executive chairman of Amazon, where he previously served as the chairman, president, and CEO. With a net worth of almost 200.1 billion as of September 2021, he is either the wealthiest or second-wealthiest person in the world according to both Forbes and Bloombergs Billionaires Index. ',
                               style: TextStyle(),
                             ),
                           ),
@@ -202,11 +203,11 @@ class MainHome extends StatelessWidget {
                     child: Card(
                       child: ListTile(
                         leading: Icon(Icons.post_add_rounded),
-                        title: Text('Album'),
+                        title: Text('Mark Zuckerberg'),
                         trailing: Icon(Icons.more_vert),
                         subtitle: Padding(
                             padding: EdgeInsets.only(top: 10),
-                            child: Text('Lorem Ipsum is simply dummy text. Lorem Ipsum is simply a dummy text. Lorem Ipsum is simply a dummy text.',
+                            child: Text('Mark Elliot Zuckerberg (born May 14, 1984) is an American media magnate, internet entrepreneur, and philanthropist. He is known for co-founding Facebook, Inc. and serves as its chairman, chief executive officer, and controlling shareholder. He is also a co-founder of the solar sail spacecraft development project Breakthrough Starshot and serves as one of its board members.',
                               style: TextStyle(),
                             ),
                           ),
@@ -219,11 +220,11 @@ class MainHome extends StatelessWidget {
                     child: Card(
                       child: ListTile(
                         leading: Icon(Icons.post_add_rounded),
-                        title: Text('Album'),
+                        title: Text('Bill Gates'),
                         trailing: Icon(Icons.more_vert),
                         subtitle: Padding(
                             padding: EdgeInsets.only(top: 10),
-                            child: Text('Lorem Ipsum is simply dummy text. Lorem Ipsum is simply a dummy text. Lorem Ipsum is simply a dummy text.',
+                            child: Text('William Henry Gates III (born October 28, 1955) is an American business magnate, software developer, investor, author, and philanthropist. He is a co-founder of Microsoft Corporation, along with his late childhood friend Paul Allen. During his career at Microsoft, Gates held the positions of chairman, chief executive officer (CEO), president and chief software architect, while also being the largest individual shareholder until May 2014. He is considered one of the best known entrepreneurs of the microcomputer revolution of the 1970s and 1980s.',
                               style: TextStyle(),
                             ),
                           ),
@@ -236,11 +237,11 @@ class MainHome extends StatelessWidget {
                     child: Card(
                       child: ListTile(
                         leading: Icon(Icons.post_add_rounded),
-                        title: Text('Album'),
+                        title: Text('Larry Page'),
                         trailing: Icon(Icons.more_vert),
                         subtitle: Padding(
                             padding: EdgeInsets.only(top: 10),
-                            child: Text('Lorem Ipsum is simply dummy text. Lorem Ipsum is simply a dummy text. Lorem Ipsum is simply a dummy text.',
+                            child: Text('Larry Page, the co-founder of Google has a net worth of 115.7 billion dollar and ranks in the ninth position among the world’s richest persons. He has also invested in Planetary Resources, the famed space exploration company, and is also funding “Flying Car”, startup companies Kitty Hawk and Opener.',
                               style: TextStyle(),
                             ),
                           ),
@@ -253,11 +254,11 @@ class MainHome extends StatelessWidget {
                     child: Card(
                       child: ListTile(
                         leading: Icon(Icons.post_add_rounded),
-                        title: Text('Album'),
+                        title: Text('Nikhil Kilivayil'),
                         trailing: Icon(Icons.more_vert),
                         subtitle: Padding(
                             padding: EdgeInsets.only(top: 10),
-                            child: Text('Lorem Ipsum is simply dummy text. Lorem Ipsum is simply a dummy text. Lorem Ipsum is simply a dummy text.',
+                            child: Text('Nikhil is a Software Engineer turned Entrepreneur who has 9+ years of work experience in the software industry and is now successfully running a Software Consultancy business in Calicut. His passion for teaching had led him to start an educational institution where he teaches how to learn for yourself and build a good career in the tech industry. Nikhil is also the sitting President and board member of a technical NGO named Ping Foundation which focuses on building Open Source projects that have social commitments and imparting technical education to the rural youths.',
                               style: TextStyle(),
                             ),
                           ),
@@ -329,7 +330,8 @@ class Profile extends StatelessWidget {
   //shared_preferences
   @override
   Widget build(BuildContext context) {
-   
+    String? user = finalEmail;
+   TextEditingController myController = TextEditingController()..text = user!;
     return Scaffold(
       body: Row(
         mainAxisAlignment: MainAxisAlignment.center,
@@ -348,27 +350,60 @@ class Profile extends StatelessWidget {
               // ),
               ClipRRect(
                 borderRadius: BorderRadius.circular(100.0),
-                child: Image.asset('images/elon.jpg',
+                child: new Image.asset('assets/images/heisen.jpg',
                 height: 200.0,
                 width: 200.0,),
                 
               ),
               SizedBox(height: 20.0),
-              Text('Hi ${finalEmail!}'),
-              SizedBox(height: 20.0),
-              ElevatedButton(
-                child: Text('Logout'),
-                onPressed: () async {
-                  final SharedPreferences prefs = await SharedPreferences.getInstance();
-                  prefs.remove('email');
-                  Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => AccountPage()));
-                }
-              ),
-            ],
+              Container(
+                width: 400.0,
+                child: TextField(
+                  controller: myController,
+                  decoration: InputDecoration(
+                    border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(20.0),
 
+                    ),
+                    labelText: 'Username',
+                    prefixIcon: Icon(Icons.person),
+                    suffixIcon: Icon(Icons.edit),
+                    
+
+                  ),
+                ),
+              ),
+              SizedBox(height: 20.0),
+              SizedBox(
+                width:400.0,
+                height: 50.0,
+                child: ElevatedButton(
+                  child: Text('Change Password'),
+                  onPressed: (){
+                  },
+                
+                ),
+              ),
+              SizedBox(height: 20.0),
+              SizedBox(
+                width:400.0,
+                height: 50.0,
+                child: ElevatedButton(
+                  child: Text('Logout'),
+                  onPressed: () async {
+                    final SharedPreferences prefs = await SharedPreferences.getInstance();
+                    prefs.remove('email');
+                    Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => AccountPage()));
+                  },
+                
+                ),
+              ),
+              
+
+            ],
+          
           ),
         ],
-        
       ),
     );
   }
